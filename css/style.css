@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Licorice', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+/* Menu */
+.menu{
+    background-color: #555555;
+    list-style-type: none;
+    font-size: 150%;
+}
+#menu li{
+    list-style-type: none;   
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.menu-left{
+    float: left;
+    padding: 10px 0px 0px 15px;
+}
+.menu-right{
+    float: right;
+    padding: 10px 15px 0px 15px;
+}
+#menu a:hover,
+#menu a:active,
+#menu a:focus {
+    color: black;   
+}
+/* Banner */
+#banner{
+    position: relative;
+}
+.banner-content{
+    position: absolute;
+    background-color: rgba(110, 108, 108,0.5);
+    width: 100%;
+    top: 0px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    padding-top: 5px;
+}
+/* section */
+#section{
+    background-color: rgba(182, 180, 180,0.5);
+}
+.section-content{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.section-img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+}
+.container-img{
+    position: relative;
+}
+.place{
+    position: absolute;
+    top: 0px;
+    background-color:  rgba(230, 229, 229,0.5);
+    font-weight: 700;
+    color: white;
+}
+.col{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-bottom: gray solid 2px;
+}
+/* Footer */
+#footer{
+    background-color: rgba(97, 96, 96,0.5);
+}
+.footer-content{
+    width: 100%;
+    height: auto;
+
+}
+#copyright {
+    text-align: center;
+    padding-top:10px;
+    background-color:rgba(97, 96, 96,0.5) ; 
+    margin: 0px;
+    padding-bottom: 4px;
+}
+#footer .col{
+    padding-bottom: 30px;
+    border-bottom: gray solid 1px;
+}
+/* css about  us */
+#section-about{
+    background-color: rgba(182, 180, 180,0.5);
+}
+/* Hà Nội */
+#section-hanoi h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 350%;
+    padding-top: 10px;
+}
+#section-hanoi{
+    background-color:rgba(182, 180, 180,0.5) ;
+}
+/* Hà Giang */
+#section-hagiang h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 350%;
+    padding-top: 10px;
+}
+#section-hagiang{
+    background-color:rgba(182, 180, 180,0.5) ;
+}
+/* Hồ chí Minh */
+#section-hochiminh h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 350%;
+    padding-top: 10px;
+}
+#section-hochiminh{
+    background-color:rgba(182, 180, 180,0.5) ;
+}
+/* Ninh Bình */
+#section-ninhbinh h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 350%;
+    padding-top: 10px;
+}
+#section-ninhbinh{
+    background-color:rgba(182, 180, 180,0.5) ;
+}
+/* Đà Nắng */
+#section-danang h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 350%;
+    padding-top: 10px;
+}
+#section-danang{
+    background-color:rgba(182, 180, 180,0.5) ;
+}
+
